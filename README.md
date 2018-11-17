@@ -1,7 +1,9 @@
 # sort-in-ml
-Collection of sorting algorithms written in Standard ML
+Collection of sorting algorithms written in Standard ML.
 
-## Example usage
+Implemented in SML/NJ, get it [here](https://www.smlnj.org/).
+
+### Example usage
 
 ```
 CM.make "path/to/library/import_sort.cm";
