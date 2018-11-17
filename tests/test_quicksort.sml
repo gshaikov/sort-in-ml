@@ -11,8 +11,8 @@ val test_list =
 
 fun check_tests lst =
   case List.find (fn (name,result) => not result) lst of
-    NONE => "Tests passed"
-  | SOME (test,_) => "Test No." ^ test ^ " FAILED"
+    NONE => print ("\027[32m" ^ "Tests PASSED\n\n" ^ "\027[0m")
+  | SOME (test,_) => print ("\027[31m" ^ "Test No." ^ test ^ " FAILED\n\n" ^ "\027[0m")
 
-val result = check_tests test_list
+val _ = check_tests test_list
 
