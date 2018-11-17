@@ -1,3 +1,6 @@
+# Compilation Manager files
+.cm/
+
 *.annot
 *.cmo
 *.cma
