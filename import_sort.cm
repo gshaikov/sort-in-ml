@@ -1,0 +1,7 @@
+group
+  structure Quicksort
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+  sig/sort.sig
+  quicksort/quicksort.sml
