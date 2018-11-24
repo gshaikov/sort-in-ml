@@ -1,7 +1,11 @@
 group
+  structure Tests
   structure Quicksort
+  structure Mergesort
 is
   $/basis.cm
   $/smlnj-lib.cm
+  test_util.sml
   ../sig/sort.sig
   ../quicksort.sml
+  ../mergesort.sml
