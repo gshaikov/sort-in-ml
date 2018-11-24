@@ -1,7 +1,9 @@
 group
   structure Quicksort
+  structure Mergesort
 is
   $/basis.cm
   $/smlnj-lib.cm
   sort/sig/sort.sig
   sort/quicksort.sml
+  sort/mergesort.sml
