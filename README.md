@@ -3,6 +3,10 @@ Collection of sorting algorithms written in Standard ML.
 
 Implemented in SML/NJ, get it [here](https://www.smlnj.org/).
 
+Currently available:
+- mergesort
+- quicksort
+
 ### Example usage
 
 ```
