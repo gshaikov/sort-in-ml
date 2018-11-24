@@ -3,5 +3,5 @@ group
 is
   $/basis.cm
   $/smlnj-lib.cm
-  sort/sig/sort.sig
-  sort/quicksort.sml
+  ../sig/sort.sig
+  ../quicksort.sml

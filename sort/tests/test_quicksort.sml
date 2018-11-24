@@ -1,4 +1,4 @@
-CM.make "../import_sort.cm";
+CM.make "test_sort.cm";
 
 open Quicksort
 
